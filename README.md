@@ -12,7 +12,7 @@ This Terraform module creates a range of resources to deliver a fully functional
 ------
 ```python
 module "jenkins" {
-  source = "github.com/danielburkewilliams/jenkins-bg-tf.git"
+  source = "https://github.com/danielburkewilliams/jenkins-bg-tf.git"
 
   project     = "lab"
   environment = "test"
@@ -57,3 +57,11 @@ TF versions tested: 0.9.11, 0.10.7
 ------
 1. microservice-tf
 2. subnets-tf
+
+
+**TerraformSetup**
+1. https://learn.hashicorp.com/terraform/getting-started/build
+2. $ aws configure 
+(https://console.aws.amazon.com/iam/home?#/security_credentials)
+access key
+3.after aws setup run $terraform init
