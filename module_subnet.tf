@@ -1,5 +1,5 @@
 module "elb_subnets" {
-  source = "github.com/danielburkewilliams/subnets-tf.git"
+  source = "git::https://github.com/danielburkewilliams/subnets-tf.git"
 
   name        = "${var.name}-elb"
   project     = "${var.project}"
