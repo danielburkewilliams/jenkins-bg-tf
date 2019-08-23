@@ -1,5 +1,5 @@
 module "jenkins_blue" {
-  source = "github.com/danielburkewilliamsmicroservice-tf.git"
+  source = "github.com/danielburkewilliams/microservice-tf.git"
 
   name        = "${var.module}-b"
   project     = "${var.project}"
@@ -31,7 +31,7 @@ module "jenkins_blue" {
 }
 
 module "jenkins_green" {
-  source = "github.com/danielburkewilliamsmicroservice-tf.git"
+  source = "github.com/danielburkewilliams/microservice-tf.git"
 
   name        = "${var.module}-g"
   project     = "${var.project}"

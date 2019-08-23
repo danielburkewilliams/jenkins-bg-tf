@@ -12,7 +12,7 @@ This Terraform module creates a range of resources to deliver a fully functional
 ------
 ```python
 module "jenkins" {
-  source = "github.com/danielburkewilliamsjenkins-bg-tf.git"
+  source = "github.com/danielburkewilliams/jenkins-bg-tf.git"
 
   project     = "lab"
   environment = "test"
